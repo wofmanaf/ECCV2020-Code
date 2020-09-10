@@ -23,7 +23,7 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 - [视频理解/行为识别/行为检测](#Action-Recognition)
 - [场景文本检测](#Scene-Text-Detection)
 - [场景文本识别](#Scene-Text-Recognition)
-- [特征点检测/描述符](#Feature)
+- [特征点检测/描述符/匹配](#Feature)
 - [姿态估计](#Pose-Estimation)
 - [深度估计](#Depth-Estimation)
 - [深度补全](#Depth-Completion)
@@ -31,6 +31,7 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 - [超分辨率](#Super-Resolution)
 - [去模糊](#Deblurring)
 - [去雨](#Deraining)
+- [图像/视频恢复](#Image-Restoration)
 - [图像/视频修复(补全)](#Image-Video-Inpainting)
 - [风格迁移](#Style-Transfer)
 - [三维重建](#3D-Reconstruction)
@@ -50,6 +51,12 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="CNN"></a>
 
 # CNN
+
+**Beyond Fixed Grid: Learning Geometric Image Representation with a Deformable Grid**
+
+- 主页：http://www.cs.toronto.edu/~jungao/def-grid/
+- 论文：http://xxx.itp.ac.cn/abs/2008.09269
+- 代码：https://github.com/fidler-lab/deformable-grid-release
 
  **WeightNet: Revisiting the Design Space of Weight Networks**
 
@@ -107,6 +114,12 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="Object-Detection"></a>
 
 # 2D目标检测
+
+**Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector**
+
+- 主页：https://chengchunhsu.github.io/EveryPixelMatters/
+- 论文：https://arxiv.org/abs/2008.08574
+- 代码：https://github.com/chengchunhsu/EveryPixelMatters
 
 **Dense RepPoints: Representing Visual Objects with Dense Point Sets**
 
@@ -208,12 +221,19 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Learning Where to Focus for Efficient Video Object Detection**
 
 - 主页：https://jiangzhengkai.github.io/LSTS/
-- 论文：暂无
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610018.pdf
 - 代码：https://github.com/jiangzhengkai/LSTS
 
 <a name="Semantic-Segmentation"></a>
 
 # 语义分割
+
+**SNE-RoadSeg: Incorporating Surface Normal Information into Semantic Segmentation for Accurate Freespace Detection**
+
+- 主页：https://sites.google.com/view/sne-roadseg
+- 论文：https://arxiv.org/abs/2008.11351
+- 代码：https://github.com/hlwang1124/SNE-RoadSeg
+- 数据集：https://drive.google.com/file/d/1YnkqPmzxtjNfMi2B1gMy7LQa5Gnu-BsH/view
 
 **Tensor Low-Rank Reconstruction for Semantic Segmentation**
 
@@ -324,6 +344,17 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 ## 多目标跟踪
 
+**Towards Real-Time Multi-Object Tracking**
+
+- 论文：暂无
+- 代码：https://github.com/Zhongdao/Towards-Realtime-MOT
+
+**Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking**
+
+- 论文：https://arxiv.org/abs/2008.08826
+- 代码：https://github.com/shijieS/DMMN
+- 数据集：https://github.com/shijieS/OmniMOTDataset
+
 **Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking**
 
 - 论文：https://arxiv.org/abs/2007.14557
@@ -428,6 +459,13 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 人脸（检测/识别/解析等）
 
+## 人脸检测
+
+**ProgressFace: Scale-Aware Progressive Learning for Face Detection**
+
+- 论文：http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510341.pdf
+- 代码：https://github.com/jiashu-zhu/ProgressFace
+
 ## 人脸识别
 
 **Explainable Face Recognition**
@@ -457,18 +495,50 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Edge-aware Graph Representation Learning and Reasoning for Face Parsing**
 
 - 论文：https://arxiv.org/abs/2007.11240
-
 - 代码：https://github.com/tegusi/EAGRNet
+
+## DeepFakes
+
+**What makes fake images detectable? Understanding properties that generalize**
+
+- 主页：https://chail.github.io/patch-forensics/
+- 论文：http://xxx.itp.ac.cn/abs/2008.10588
+- 代码：https://github.com/chail/patch-forensics
 
 <a name="Re-ID"></a>
 
 # Re-ID
 
+## 行人重识别
+
+**Rethinking the Distribution Gap of Person Re-identification with Camera-based Batch Normalization**
+
+- 论文：https://arxiv.org/abs/2001.08680
+- 代码：https://github.com/automan000/Camera-based-Person-ReID
+
+**Appearance-Preserving 3D Convolution for Video-based Person Re-identification**
+
+- Oral
+
+- 论文：https://arxiv.org/pdf/2007.08434
+- 代码：https://github.com/guxinqian/AP3D 
+
+**Do Not Disturb Me: Person Re-identification Under the Interference of Other Pedestrians**
+
+- 论文：https://arxiv.org/abs/2008.06963
+- 代码：https://github.com/X-BrainLab/PI-ReID
+
+**Faster Person Re-Identification**
+
+- 论文：https://arxiv.org/abs/2008.06826
+
+- 代码：https://github.com/wangguanan/light-reid
+
 **Temporal Complementary Learning for Video Person Re-Identification**
 
-论文下载链接：https://arxiv.org/abs/2007.09357
+- 论文：https://arxiv.org/abs/2007.09357
 
-代码：https://github.com/blue-blue272/VideoReID-TCLNet
+- 代码：https://github.com/blue-blue272/VideoReID-TCLNet
 
 **Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification**
 
@@ -483,12 +553,32 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Multiple Expert Brainstorming for Domain Adaptive Person Re-identification**
 
 - 论文：https://arxiv.org/abs/2007.01546
-
 - 代码：https://github.com/YunpengZhai/MEB-Net
+
+## 车辆重识别
+
+**Simulating Content Consistent Vehicle Datasets with Attribute Descent**
+
+- 论文：https://arxiv.org/abs/1912.08855
+- 代码：https://github.com/yorkeyao/VehicleX 
+- 数据集：https://github.com/yorkeyao/VehicleX
+
+**Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network**
+
+- 主页：http://media.ee.ntu.edu.tw/research/SPAN/
+
+- 论文：https://arxiv.org/abs/2008.11423
+- 代码：https://github.com/tsaishien-chen/SPAN
 
 <a name="Saliency"></a>
 
 # 显著性检测（SOD）
+
+**Progressively Guided Alternate Refinement Network for RGB-D Salient Object Detection**
+
+- 论文：http://xxx.itp.ac.cn/abs/2008.07064
+
+- 代码：https://github.com/ShuhanChen/PGAR_ECCV20
 
 **Suppress and Balance: A Simple Gated Network for Salient Object Detection**
 
@@ -536,6 +626,11 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="Action-Recognition"></a>
 
 # 视频理解/行为识别/行为检测
+
+**AssembleNet++: Assembling Modality Representations via Attention Connections**
+
+- 论文：https://arxiv.org/abs/2008.08072
+- 代码：https://sites.google.com/corp/view/assemblenet/
 
 **LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities**
 
@@ -596,7 +691,7 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 <a name="Feature"></a>
 
-# 特征点检测/描述符
+# 特征点检测/描述符/匹配
 
 **Learning and aggregating deep local descriptors for instance-level recognition**
 
@@ -607,20 +702,55 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Online Invariance Selection for Local Feature Descriptors**
 
 - Oral
-
 - 论文：https://arxiv.org/abs/2007.08988
-
 - 代码：https://github.com/rpautrat/LISRD
+
+**Single-Image Depth Prediction Makes Feature Matching Easier**
+
+- 论文：https://arxiv.org/abs/2008.09497
+
+- 代码：http://www.github.com/nianticlabs/rectified-features
 
 <a name="Pose-Estimation"></a>
 
 # 姿态估计
 
+**Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose**
+
+- 论文：https://arxiv.org/abs/2008.09047
+- 代码：https://github.com/hongsukchoi/Pose2Mesh_RELEASE
+
 **Key Frame Proposal Network for Efficient Pose Estimation in Videos**
 
 - 论文：https://arxiv.org/abs/2007.15217
-
 - 代码：https://github.com/Yuexiaoxi10/Key-Frame-Proposal-Network-for-Efficient-Pose-Estimation-in-Videos
+
+## 3D人体姿态估计
+
+**DOPE: Distillation Of Part Experts for whole-body 3D pose estimation in the wild**
+
+- 主页：https://europe.naverlabs.com/blog/dope-distillation-of-part-experts-for-whole-body-3d-pose-estimation-in-the-wild/
+
+- 论文：https://arxiv.org/abs/2008.09457
+
+- 代码：https://github.com/naver/dope
+  
+
+**SMAP: Single-Shot Multi-Person Absolute 3D Pose Estimation**
+
+- 主页：https://zju3dv.github.io/SMAP/
+- 论文：https://arxiv.org/abs/2008.11469
+- 代码：https://github.com/zju3dv/SMAP
+
+## 6D位姿估计
+
+**CosyPose: Consistent multi-view multi-object 6D pose estimation**
+
+- 主页：https://www.di.ens.fr/willow/research/cosypose/
+
+- 论文：http://xxx.itp.ac.cn/abs/2008.08465
+
+- 代码：https://github.com/ylabbe/cosypose
 
 <a name="Depth-Estimation"></a>
 
@@ -714,12 +844,26 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Rethinking Image Deraining via Rain Streaks and Vapors**
 
 - 论文：https://arxiv.org/abs/2008.00823
-
 - 代码：https://github.com/yluestc/derain
+
+<a name="Image-Restoration"></a>
+
+# 图像/视频恢复
+
+**Learning Enriched Features for Real Image Restoration and Enhancement**
+
+- 论文：https://arxiv.org/abs/2003.06792
+- 代码：https://github.com/swz30/MIRNet
 
 <a name="Image-Video-Inpainting"></a>
 
 # 图像/视频修复(补全)
+
+**NAS-DIP: Learning Deep Image Prior with Neural Architecture Search**
+
+- 主页：https://yunchunchen.github.io/NAS-DIP/
+- 论文：https://arxiv.org/abs/2008.11713
+- 代码：https://github.com/YunChunChen/NAS-DIP-pytorch
 
 **Learning Joint Spatial-Temporal Transformations for Video Inpainting**
 
@@ -747,10 +891,17 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 三维重建
 
+**Atlas: End-to-End 3D Scene Reconstruction from Posed Images**
+
+- 主页：http://zak.murez.com/atlas/
+- 论文：https://arxiv.org/abs/2003.10432
+- 代码：https://github.com/magicleap/Atlas
+- 视频：https://youtu.be/9NOPcOGV6nU
+
 **3D Bird Reconstruction: a Dataset, Model, and Shape Recovery from a Single View**
 
 - 主页：https://marcbadger.github.io/avian-mesh/
-- 论文下载链接：https://arxiv.org/abs/2008.06133
+- 论文：https://arxiv.org/abs/2008.06133
 - 代码：https://github.com/marcbadger/avian-mesh
 - 数据集：https://drive.google.com/file/d/1vyXYIJIo9jneIqC7lowB4GVi17rjztjn/view?usp=sharing
 
@@ -817,6 +968,11 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 车道线检测
 
+**CurveLane-NAS: Unifying Lane-Sensitive Architecture Search and Adaptive Point Blending**
+
+- 论文：https://arxiv.org/abs/2007.12147
+- 数据集：https://github.com/xbjxh/curvelanes
+
 **Ultra Fast Structure-aware Deep Lane Detection**
 
 - 论文：https://arxiv.org/abs/2004.11757
@@ -872,10 +1028,47 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 数据集
 
+**Simulating Content Consistent Vehicle Datasets with Attribute Descent**
+
+- 论文：https://arxiv.org/abs/1912.08855
+- 代码：https://github.com/yorkeyao/VehicleX 
+- 数据集：https://github.com/yorkeyao/VehicleX 
+
+**InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image**
+
+- 主页：https://mks0601.github.io/InterHand2.6M/
+- 论文：https://arxiv.org/abs/2008.09309
+- 代码：https://github.com/facebookresearch/InterHand2.6M
+  
+
+**SNE-RoadSeg: Incorporating Surface Normal Information into Semantic Segmentation for Accurate Freespace Detection**
+
+- 主页：https://sites.google.com/view/sne-roadseg
+- 论文：https://arxiv.org/abs/2008.11351
+- 代码：https://github.com/hlwang1124/SNE-RoadSeg
+- 数据集：https://drive.google.com/file/d/1YnkqPmzxtjNfMi2B1gMy7LQa5Gnu-BsH/view
+
+**CurveLane-NAS: Unifying Lane-Sensitive Architecture Search and Adaptive Point Blending**
+
+- 论文：https://arxiv.org/abs/2007.12147
+- 数据集：https://github.com/xbjxh/curvelanes
+
+**Detecting natural disasters, damage, and incidents in the wild**
+
+- 主页：http://incidentsdataset.csail.mit.edu/
+- 论文：https://arxiv.org/abs/2008.09188
+- 数据集：https://github.com/ethanweber/IncidentsDataset
+
+**Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking**
+
+- 论文：https://arxiv.org/abs/2008.08826
+- 代码：https://github.com/shijieS/DMMN
+- 数据集：https://github.com/shijieS/OmniMOTDataset
+
 **3D Bird Reconstruction: a Dataset, Model, and Shape Recovery from a Single View**
 
 - 主页：https://marcbadger.github.io/avian-mesh/
-- 论文下载链接：https://arxiv.org/abs/2008.06133
+- 论文：https://arxiv.org/abs/2008.06133
 - 代码：https://github.com/marcbadger/avian-mesh
 - 数据集：https://drive.google.com/file/d/1vyXYIJIo9jneIqC7lowB4GVi17rjztjn/view?usp=sharing
 
@@ -975,6 +1168,12 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="Others"></a>
 
 # 其他
+
+**Pose Augmentation: Class-agnostic Object Pose Transformation for Object Recognition**
+
+- 论文：https://arxiv.org/abs/2003.08526
+
+- 代码：https://github.com/gyhandy/Pose-Augmentation
 
 **Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems**
 
