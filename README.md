@@ -44,6 +44,7 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 - [线段检测](#Line-Detection)
 - [视线估计](#Gaze-Estimation)
 - [眼动追踪](#Eye-Tracking)
+- [对抗攻击](#Adversarial-Attack)
 - [数据集](#Datasets)
 - [其他](#Others)
 - [不确定中没中](#Not-Sure)
@@ -115,6 +116,29 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 2D目标检测
 
+**Learning Data Augmentation Strategies for Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5865_ECCV_2020_paper.php
+- 代码：https://github.com/tensorflow/tpu/tree/master/models/official/detection
+
+**AABO: Adaptive Anchor Box Optimization for Object Detection via Bayesian Sub-sampling**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3977_ECCV_2020_paper.php
+- 代码：https://github.com/wwdkl/AABO
+
+**Side-Aware Boundary Localization for More Precise Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2272_ECCV_2020_paper.php
+- 代码：https://github.com/open-mmlab/mmdetection 
+
+**TIDE: A General Toolbox for Identifying Object Detection Errors**
+
+- 主页：https://dbolya.github.io/tide/
+
+- 论文：https://arxiv.org/abs/2008.08115
+
+- 代码：https://github.com/dbolya/tide
+
 **Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector**
 
 - 主页：https://chengchunhsu.github.io/EveryPixelMatters/
@@ -153,11 +177,6 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 - 数据集：https://github.com/clobotics/piou
 
-**Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer**
-
-- 论文：https://arxiv.org/abs/2007.07986
-- 代码：https://github.com/mikuhatsune/wsod_transfer
-
 **Probabilistic Anchor Assignment with IoU Prediction for Object Detection**
 
 - 论文：https://arxiv.org/abs/2007.08103
@@ -184,10 +203,71 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 **Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training**
 
 - 论文：https://arxiv.org/abs/2004.06002
-
 - 代码：https://github.com/hkzhang95/DynamicRCNN 
 
+**OS2D: One-Stage One-Shot Object Detection by Matching Anchor Features**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2424_ECCV_2020_paper.php
+- 代码：https://github.com/aosokin/os2d
+
+**Object Detection with a Unified Label Space from Multiple Datasets**
+
+- 主页：http://www.nec-labs.com/~mas/UniDet/
+- 论文：https://arxiv.org/abs/2008.06614
+- 代码：暂无
+- 数据集：http://www.nec-labs.com/~mas/UniDet/resources/UOD_dataset_ECCV20.zip
+
+### 弱监督目标检测
+
+**Enabling Deep Residual Networks for Weakly Supervised Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/479_ECCV_2020_paper.php
+- 代码：https://github.com/shenyunhang/DRN-WSOD
+
+**UFO²: A Unified Framework towards Omni-supervised Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3205_ECCV_2020_paper.php
+- 代码：https://github.com/NVlabs/wetectron
+
+**Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer**
+
+- 论文：https://arxiv.org/abs/2007.07986
+- 代码：https://github.com/mikuhatsune/wsod_transfer
+
+### 域自适应目标检测
+
+**Collaborative Training between Region Proposal Localization and Classification for Domain Adaptive Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2920_ECCV_2020_paper.php
+- 代码：https://github.com/GanlongZhao/CST_DA_detection
+
+**Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector**
+
+- 主页：https://chengchunhsu.github.io/EveryPixelMatters/
+- 论文：https://arxiv.org/abs/2008.08574
+- 代码：https://github.com/chengchunhsu/EveryPixelMatters
+
+### Few-Shot 目标检测
+
+**Multi-Scale Positive Sample Refinement for Few-Shot Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2581_ECCV_2020_paper.php
+- 代码：https://github.com/jiaxi-wu/MPSR
+
+### 水下目标检测
+
+**Dual Refinement Underwater Object Detection Network**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3425_ECCV_2020_paper.php
+- 代码：https://github.com/Peterchen111/FERNet
+
 ## 遥感旋转目标检测
+
+**PIoU Loss: Towards Accurate Oriented Object Detection in Complex Environments**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3087_ECCV_2020_paper.php
+- 代码：https://github.com/clobotics/piou
+- 数据集：https://github.com/clobotics/piou
 
 **Arbitrary-Oriented Object Detection with Circular Smooth Label**
 
@@ -217,6 +297,11 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="Video-Object-Detection"></a>
 
 # 视频目标检测
+
+**Mining Inter-Video Proposal Relations for Video Object Detection**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3764_ECCV_2020_paper.php
+- 代码：https://github.com/youthHan/HVRNet
 
 **Learning Where to Focus for Efficient Video Object Detection**
 
@@ -683,6 +768,14 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 场景文本识别
 
+**Adaptive Text Recognition through Visual Matching**
+
+- 主页：http://www.robots.ox.ac.uk/~vgg/research/FontAdaptor20/
+
+- 论文：https://arxiv.org/abs/2009.06610
+
+- 代码：https://github.com/Chuhanxx/FontAdaptor
+
 **Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting**
 
 - 论文：https://arxiv.org/abs/2007.09482
@@ -798,11 +891,16 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 ## 图像超分辨率
 
+**Deep Decomposition Learning for Inverse Imaging Problems**
+
+- 论文：https://arxiv.org/pdf/1911.11028.pdf
+- 代码：https://github.com/edongdongchen/DDN 
+
 **Component Divide-and-Conquer for Real-World Image Super-Resolution**
 
 - 论文：https://arxiv.org/abs/2008.01928
-
-- 代码和数据集：https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution
+- 代码：https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution
+- 数据集：https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution
 
 **Learning with Privileged Information for Efficient Image Super-Resolution**
 
@@ -832,10 +930,19 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 去模糊
 
+## 图像去模糊
+
 **End-to-end Interpretable Learning of Non-blind Image Deblurring**
 
 - 论文：https://arxiv.org/abs/2007.01769
 - 代码：暂无（即将出来）
+
+## 视频去模糊
+
+**Efficient Spatio-Temporal Recurrent Neural Network for Video Deblurring**
+
+- 论文：https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5116_ECCV_2020_paper.php
+- 代码：https://github.com/zzh-tech/ESTRNN 
 
 <a name="Deraining"></a>
 
@@ -1024,9 +1131,30 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 - 主页：https://ait.ethz.ch/projects/2020/EVE/
 - 论文：https://arxiv.org/abs/2007.13120
 
+<a name="Adversarial-Attack"></a>
+
+# 对抗攻击
+
+**Adversarial Ranking Attack and Defense**
+
+- 论文：https://arxiv.org/abs/2002.11293
+- 代码：https://github.com/cdluminate/advrank 
+
+**Square Attack: a query-efficient black-box adversarial attack via random search**
+
+- 论文：https://arxiv.org/abs/1912.00049
+- 代码：https://github.com/max-andr/square-attack
+
 <a name="Datasets"></a>
 
 # 数据集
+
+**Object Detection with a Unified Label Space from Multiple Datasets**
+
+- 主页：http://www.nec-labs.com/~mas/UniDet/
+- 论文：https://arxiv.org/abs/2008.06614
+- 代码：暂无
+- 数据集：http://www.nec-labs.com/~mas/UniDet/resources/UOD_dataset_ECCV20.zip
 
 **Simulating Content Consistent Vehicle Datasets with Attribute Descent**
 
@@ -1252,11 +1380,6 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 - 代码：https://github.com/szzexpoi/AiR
 - 数据集：https://github.com/szzexpoi/AiR
-
-**Square Attack: a query-efficient black-box adversarial attack via random search**
-
-- 论文：https://arxiv.org/abs/1912.00049
-- 代码：https://github.com/max-andr/square-attack
 
 <a name="Not-Sure"></a>
 
