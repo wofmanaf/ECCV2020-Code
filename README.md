@@ -590,6 +590,13 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 - 论文：http://xxx.itp.ac.cn/abs/2008.10588
 - 代码：https://github.com/chail/patch-forensics
 
+## 其他
+
+**Lifespan Age Transformation Synthesis**
+
+- 论文：https://arxiv.org/abs/2003.09764
+- 代码：https://github.com/royorel/Lifespan_Age_Transformation_Synthesis
+
 <a name="Re-ID"></a>
 
 # Re-ID
@@ -891,9 +898,14 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 ## 图像超分辨率
 
+**Learning the Super-Resolution Space with Normalizing Flow**
+
+- 论文：https://arxiv.org/abs/2006.14200
+- 代码：https://github.com/andreas128/SRFlow
+
 **Deep Decomposition Learning for Inverse Imaging Problems**
 
-- 论文：https://arxiv.org/pdf/1911.11028.pdf
+- 论文：https://arxiv.org/abs/1911.11028
 - 代码：https://github.com/edongdongchen/DDN 
 
 **Component Divide-and-Conquer for Real-World Image Super-Resolution**
@@ -1149,6 +1161,13 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 
 # 数据集
 
+ **Long-term Human Motion Prediction with Scene Context**
+
+- 主页：https://people.eecs.berkeley.edu/~zhecao/hmp/index.html
+- 论文：https://arxiv.org/abs/2007.03672
+
+- 数据集：https://github.com/ZheC/GTA-IM-Dataset
+
 **Object Detection with a Unified Label Space from Multiple Datasets**
 
 - 主页：http://www.nec-labs.com/~mas/UniDet/
@@ -1296,6 +1315,11 @@ ECCV 2020 论文开源项目合集，同时欢迎各位大佬提交issue，分�
 <a name="Others"></a>
 
 # 其他
+
+**Defocus Blur Detection via Depth Distillation**
+
+- 论文：https://arxiv.org/abs/2007.08113
+- 代码：https://github.com/vinthony/depth-distillation
 
 **Pose Augmentation: Class-agnostic Object Pose Transformation for Object Recognition**
 
